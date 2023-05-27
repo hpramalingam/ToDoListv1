@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.dark {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.light {
+  background-color: #81b4de;
+  color:#333;
+}
+
+.Background {
+  height: 100%;
+  width: 100%; 
+}
+
+.bulletless {
+  list-style-type: none; 
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+.main-container{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+input{
+    height: 35px;
+    width: 165px;
+    background-color: black;
+    color:wheat;
+    border-radius: 6px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid;
+
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+li {
+    margin-top: 15px;
+}
+
+button {
+    height:30px;
+    width: 60px; 
+    background-color: lightsalmon;
+    margin-top: 10px;
+    cursor: pointer; 
+}
+
+
+
+
+
+.switch {
+  --tw-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  width: 50px
+}
+
+.switch:before {
+  
+  font-size: .75rem;
+  left: -45px;
+  line-height: 1rem;
+  position: absolute;
+  text-transform: uppercase
+}
+
+.switch .theme-switcher {
+  height: 0;
+  opacity: 0;
+  width: 0
+}
+
+.slider {
+  background-color: #fff;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .2s
+}
+
+.slider:before {
+  content: "🌝";
+  font-size: 1.5rem;
+  height: 0;
+  left: -4.5px;
+  line-height: 0px;
+  position: absolute;
+  top: 9px;
+  transition: .4s;
+  width: 0
+}
+
+.theme-switcher:checked+.slider:before {
+  content: "🌚";
+  transform: translateX(26px)
+}
+
+.slider.round {
+  border-color: var(--border-primary);
+  border-radius: 34px;
+  border-width: 1px
+}
+
+.slider.round:before {
+  border-radius: 50%
+}
+
+.justify-center {
+  justify-content: right
+}
+
+.flex {
+  display: flex
+}
+
+.items-center {
+  align-items: center
+}
+
+
