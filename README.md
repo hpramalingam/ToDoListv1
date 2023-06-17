@@ -1,5 +1,5 @@
 # ToDoListv1
-Created a basic To Do List generator on the web using React.js, Typescript, HTML and CSS
+Created a basic To Do List app that can be run on the web using React.js, Typescript, Javascript, HTML and CSS. 
 
 | Feature       | Description                  | Avaliable? |
 | ------------- | ---------------------------- | ---------- |
